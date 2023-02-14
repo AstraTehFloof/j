@@ -1,4 +1,3 @@
-# For when school, or admin blocks websites such as ChatGPT
 import openai
 import subprocess
 from colorama import Fore, Style
