@@ -2,10 +2,17 @@
   <head>
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+   <py-env>
+     - openai
+     - colorama
+     - pwinput
+   </py-env>
+    
   </head>
   <body>
     <py-config> 
-      packages = {"openai","os","pwinput","subprocess","colorama","json","base64"}
+      packages = {"os","subprocess","json","base64"}
     </py-config>
     
     <py-script defer src="/py.py"> </py-script>
