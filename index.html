@@ -4,6 +4,10 @@
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
   </head>
   <body>
-    <py-script defer src="py.py"> </py-script>
+    <py-config> 
+      packages = {"openai","os","pwinput","subprocess","colorama","json","base64"}
+    </py-config>
+    
+    <py-script defer src="/py.py"> </py-script>
   </body>
 </html>
